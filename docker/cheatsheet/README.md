@@ -1,8 +1,35 @@
 # The Ultimate Docker Cheat Sheet
 
-<br> <br> 
 
-## Complete Docker CLI 
+![docker_cheatsheet](https://user-images.githubusercontent.com/313480/210130087-62a755f7-499c-4f5a-a91c-9151ac82417e.png)
+
+
+
+A cheatsheet is a concise summary of important information that is meant to be used as a quick reference. Cheatsheets are often used in the form of a list or a table, and they typically cover a specific topic or subject area. In the context of Docker, a Docker cheatsheet is a summary of commonly used Docker commands and their options, as well as other useful information related to Docker.
+
+Cheatsheets can be particularly helpful when learning a new tool or technology, as they provide a convenient way to quickly look up and remind oneself of key concepts and commands. They can also be useful for experienced users who need to recall a specific command or option but may not remember all the details.
+
+
+## Table of Contents
+
+- [Categories](#categories)
+  - 🐳 [Basic Docker CLIs](#basic-docker-clis)
+  - 🧰 [Container Management CLIs](#container-management-clis)
+  - 🧑‍💻 [Inspecting the Container](#inspecting-the-container)
+  - 🧑‍💻 [Interacting with Container](#interacting-with-container)
+  - 🫙 [Image Management Commands ](#image-management-commands)
+  - 🧪 [Image Transfer Commands](#image-transfer-commands)
+  - 🏗️ [Builder Main Commands](#builder-main-commands)
+  - ⚙️ [The Docker CLI](#the-docker-cli)
+-  🧑‍🤝‍🧑 [Contributors](#contributors)
+- 💬 [Support and Community](#support-and-community)
+- 👉 [References](#references)
+
+
+## Basic Docker CLIs 
+
+Here's the list of the basic Docker commands that works on both Docker Desktop as well as Docker Engine:
+
 
 ![full](https://raw.githubusercontent.com/sangam14/dockercheatsheets/master/dockercheatsheet8.png)
 
@@ -11,31 +38,50 @@
 
 ## Container Management CLIs
 
+Here's the list of the Docker commands that manages Docker images and containers flawlessly:
+
 <br>
 
 
 ![container_management](https://raw.githubusercontent.com/sangam14/dockercheatsheets/master/dockercheatsheet1.png)
 
 ## Inspecting The Container 
+
+Here's the list of the basic Docker commands that helps you inspect the containers seamlessly:
+
 <br>
 
 ![Inspecting The Container](https://raw.githubusercontent.com/sangam14/dockercheatsheets/master/dockercheatsheet3.png)
 
 ## Interacting with Container
+
+Do you want to know how to access the containers? Check out these fundamental commands:
+
+
 ![Interacting with Container1](https://raw.githubusercontent.com/sangam14/dockercheatsheets/master/dockercheatsheet4.png)
 
 ## Image Management Commands 
+
+Here's the list of Docker commands that helps you manage the Docker Images:
+
 <br>
 
  ![image management commands](https://raw.githubusercontent.com/sangam14/dockercheatsheets/master/dockercheatsheet5.png)
  
 ## Image Transfer Commands 
+
+Here's the list of Docker image transfer commands:
+
  <br>
  
  ![Image Transfer Comnands](https://raw.githubusercontent.com/sangam14/dockercheatsheets/master/dockercheatsheet6.png)
 
 
 ## Builder Main Commands
+
+Want to know how to build Docker Image? Do check out the list of Image Build Commands:
+
+
 <br>
 
 ![Builder Main Commands](https://raw.githubusercontent.com/sangam14/dockercheatsheets/master/dockercheatsheet7.png)
@@ -46,7 +92,6 @@
 
 ## The Docker CLI 
 
-<br>
 
 Manage images
 -------------
@@ -508,8 +553,28 @@ docker kill $(docekr ps -q )
 ```
 
 
-## Contributor - 
+## Contributors
 
-[Sangam biradar](https://twitter.com/BiradarSangam) - Docker Community Leader 
+[Sangam biradar](https://twitter.com/BiradarSangam) - Docker Community Leader <br>
+[Ajeet Singh Raina](https://twitter.com/ajeetsraina) - Docker Captain, Collabnix
+
+
+## Support and Community
+
+If you do get enough interest to contributer to this Cheat Sheet, the community at Collabnix is available to support you.
+Feel free to raise PR and get your favorite Cheat Sheet added to the list via [PR](https://github.com/collabnix/dockerlabs/pulls), or you can connect to us either on Slack or Discord server.
+
+
+
+## Other Cheat Sheets
+
+- [Kubectl Cheat Sheet](https://collabnix.com/kubectl-cheatsheet/)
+- [Docker Compose Cheat Sheet](https://dockerlabs.collabnix.com/intermediate/docker-compose/compose-cheatsheet.html)
+
+
+
+
+
+
 
 
